@@ -1,5 +1,33 @@
 # Change Log
 
+## 5.2.4
+
+Bug fixing and improvements.
+
+## 5.2.3
+
+ATTENTION! This is just a bump in version so the message can reach more users.
+Samsung pushed a new update for Frame TVs (late 2021 and 2022 from what we know)
+and it decided to remove the API for Art Mode.
+Right now we are still looking for a solution.
+Until then, don't update your Frames and make sure you disable Auto Update.
+
+## 5.2.0
+
+* New: Add integration with SmartThings API
+* Add option to create inputs that selects a specific source (require SmartThings API)
+* Add option to select picture mode (require SmartThings API)
+* Add option to set volume with a switch (require SmartThings API)
+* If SmartThings API is configured use it for changing channels
+* Add delay when running a command right after the TV powered ON
+* Clear sleep timeout if the TV shuts down sooner
+* Fix warning when a custom switch takes longer to execute
+* Update dependencies used by the plugin
+* Remove feature to list installed applications (Samsung removed their API)
+
+Read here on how to setup SmartThings API: https://github.com/tavicu/homebridge-samsung-tizen/wiki/SmartThings-Setup
+
+
 ## 5.1.1
 
 * Fix compatibility with HOOBS
