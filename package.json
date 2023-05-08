@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-samsung-tizen",
+  "name": "@tritter/homebridge-samsung-tizen",
   "displayName": "Homebridge Samsung Tizen",
   "version": "5.2.7",
   "description": "Homebridge plugin for Samsung TV's with Tizen OS",
